@@ -14,6 +14,7 @@ export default function App() {
             {" "}
             open-sourced on GitHub
           </a>
+          and <a href="https://inquisitive-vacherin-fabdf1.netlify.app" target="_blank" rel="noreferrer">hosted on Netlify</a>
         </footer>
       </div>
     </div>
