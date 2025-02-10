@@ -6,9 +6,9 @@ import WeatherTemperature from "./WeatherTemperature";
 export default function WeatherInfo(props) {
   return (
     <div>
-      <h1>{props.data.city}</h1>
+      <h1 className="mb-2">{props.data.city}</h1>
       <ul>
-        <li>
+        <li className="mb-2">
           <FormattedDate date={props.data.date} />
         </li>
         <li className="text-capitalize">{props.data.description}</li>
@@ -23,7 +23,6 @@ export default function WeatherInfo(props) {
             />
 
             <WeatherTemperature celsius={props.data.temperature} />
-            
           </div>
         </div>
         <div className="col-6">
